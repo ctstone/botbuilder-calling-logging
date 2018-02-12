@@ -1,0 +1,43 @@
+{
+  "name": "botbuilder-calling-logging",
+  "version": "3.0.0",
+  "description": "Logging middleware for botbuilder. Uses DocumentDb and Azure Blob to persist bot events.",
+  "main": "dist/botbuilder-logger.js",
+  "typings": "dist/botbuilder-logger.d.ts",
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "pretest": "tsc",
+    "test": "mocha dist/test"
+  },
+  "keywords": [],
+  "author": "chstone@microsoft.com",
+  "repository": {
+    "url": "https://github.com/ctstone/botbuilder-calling-logging",
+    "type": "git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "documentdb": "^1.14.2"
+  },
+  "peerDependencies": {
+    "azure-storage": "^2.8.0",
+    "documentdb": "^1.14.2",
+    "botbuilder": "^3.14.0"
+  },
+  "devDependencies": {
+    "@types/async": "^2.0.47",
+    "@types/chai": "^4.1.2",
+    "@types/documentdb": "^1.10.4",
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^9.4.0",
+    "@types/sinon": "^4.1.3",
+    "azure-storage": "^2.8.0",
+    "botbuilder": "^3.14.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0",
+    "nock": "^9.1.6",
+    "sinon": "^4.2.2",
+    "typescript": "^2.7.1"
+  }
+}
