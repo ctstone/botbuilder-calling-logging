@@ -5,8 +5,7 @@
   "main": "dist/bot-call-logger.js",
   "typings": "dist/bot-call-logger.d.ts",
   "scripts": {
-    "prepublishOnly": "tsc",
-    "pretest": "tsc",
+    "build": "tsc",
     "test": "mocha dist/test"
   },
   "keywords": [],
